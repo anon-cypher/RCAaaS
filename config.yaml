@@ -1,0 +1,46 @@
+# config.yaml
+
+logs:
+  module: rca_sdk.plugins.logs.elk
+  elasticsearch:
+    host: "http://localhost:9200"
+    index: "rca-logs"
+    username: ""
+    password: ""
+    use_ssl: false
+    error_keywords: ["ERROR", "Exception", "CRITICAL"]
+
+# metrics:
+#   module: rca_sdk.plugins.metrics.prometheus
+#   prometheus_url: "http://localhost:9090"
+
+# ci:
+#   module: rca_sdk.plugins.ci.github_actions
+#   token: "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"
+#   repo: "your_org/your_repo"
+
+notifications:
+  slack:
+    module: rca_sdk.plugins.notifications.slack_notifier
+    webhook_url: "https://hooks.slack.com/services/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"
+
+# rag:
+#   llm_provider: "openai"
+#   model: "gpt-3.5-turbo"
+#   openai_api_key: "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"
+#   index_type: "elasticsearch"   # or "faiss", "weaviate", etc.
+#   vector_index:
+#     host: "http://localhost:9200"
+#     index: "rag-docs"
+
+    # 
+
+rag:
+  model: "openai/gpt-3.5-turbo"  # or gpt-4, llama-3, etc.
+  api_base: "https://openrouter.ai/api/v1"
+  api_key: "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"  # your OpenRouter API key
+  provider: "openrouter"
+
+code:
+  module: rca_sdk.plugins.code.local
+
