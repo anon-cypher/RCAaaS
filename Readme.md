@@ -1,4 +1,6 @@
-# 🚀 AI-Powered RCA SDK – ELK + GPT + Slack
+<div align="center">
+
+# RCA SDK: AI-Powered Root Cause Analysis Framework
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?logo=python)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![LLM](https://img.shields.io/badge/LLM-OpenAI%20%7C%20OpenRouter-purple.svg?logo=openai)](https://openrouter.ai/)
@@ -18,6 +20,7 @@
 ..:::::..:::......:::..:::::..::::::::::::......:::........:::..::::..::
 
 ```
+</div>
 
 The **RCA SDK** is a lightweight, pluggable, AI-powered framework that automates root cause analysis of application failures by analyzing real-time system logs. It seamlessly integrates with your ELK stack, leverages LLMs for reasoning (e.g., GPT via OpenAI or OpenRouter), and pushes insightful RCA summaries to Slack — all without requiring any code changes or agents.
 
