@@ -1,0 +1,25 @@
+# config.yaml
+
+logs:
+  module: rca_sdk.plugins.logs.elk
+  elasticsearch:
+    host: "http://localhost:9200"
+    index: "rca-logs"
+    username: "dummy_user"
+    password: "dummy_password"
+    use_ssl: false
+    error_keywords: ["ERROR", "Exception", "CRITICAL"]
+
+notifications:
+  slack:
+    module: rca_sdk.plugins.notifications.slack_notifier
+    webhook_url: "https://hooks.slack.com/services/FAKE/WEBHOOK/URL"
+
+rag:
+  model: "openai/gpt-3.5-turbo"
+  api_base: "https://dummy-api.com/v1"
+  api_key: "sk-dummy-api-key"
+  provider: "dummy_provider"
+
+code:
+  module: rca_sdk.plugins.code.local
