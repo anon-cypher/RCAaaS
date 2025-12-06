@@ -58,7 +58,7 @@ The **RCA SDK** is a lightweight, pluggable, AI-powered framework that automates
 ### Step 2: Clone and Install
 
 ```bash
-git clone https://github.com/yourusername/rca_sdk.git
+git clone https://github.com/anon-cypher/RCAaaS.git
 cd rca_sdk
 pip install -r requirements.txt
 ```
@@ -146,4 +146,5 @@ Open to feedback, feature suggestions, and use cases!
 [![Email](https://img.shields.io/badge/Email-Send%20Mail-red?logo=gmail)](mailto:shubham.sg53147@gmail.com)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/anon-cypher)
+
 
