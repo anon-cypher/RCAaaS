@@ -145,6 +145,6 @@ Open to feedback, feature suggestions, and use cases!
 
 [![Email](https://img.shields.io/badge/Email-Send%20Mail-red?logo=gmail)](mailto:shubham.sg53147@gmail.com)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/anon-cypher)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/shubham-gupta-ai)
 
 
